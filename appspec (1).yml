@@ -1,0 +1,11 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/netcore
+    owner: www-data
+hooks:
+  BeforeInstall:
+    - location: stop_server
+      timeuout: 30
+      runas: root
