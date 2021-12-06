@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Alata';
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #F0462D, #FFB200);
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastroo{
+    background-color: #411E5A;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60vw;
+    height: 80vh;
+    border-radius: 45px;
+}
+
+.cadastro-content{
+    margin: 40px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-cadastro{
+    width: 250px;
+    height: 60px;
+    background-color: #F0462D;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+
+.titulo{
+    width: 270px;
+    border-bottom: 4px solid white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.titulo h1{
+    color: white;
+    font-size: 34px;
+    letter-spacing: 2px;
+}
+
+.form-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.inputs input{
+    width: 300px;
+    height: 45px;
+    margin-bottom: 30px;
+    background-color: #411E5A;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid white;
+    color: white;
+}
+
+.inputs select{
+    width: 300px;
+    height: 45px;
+    margin-bottom: 30px;
+    background-color: #411E5A;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid white;
+    color: white;
+}
+
+.botao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box-botao{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 10px; */
+    /* background-color: blue; */
+}
